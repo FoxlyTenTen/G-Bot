@@ -1,8 +1,8 @@
-# 🤖 G-bot: Grab’s AI-Powered Merchant Assistant
+# 🤖 G-Bot: Grab’s AI-Powered Merchant Assistant
 
 ## 🧠 Introduction
 
-G-bot is a powerful AI chatbot designed to assist Grab’s merchant-partners (MEX) with intelligent, real-time business insights, personalized guidance, automation, and technical analysis. With an intuitive chat-based interface, G-bot empowers merchants to streamline operations, track performance, and make smarter business decisions—hands-free.
+G-Bot is a powerful AI chatbot designed to assist Grab’s merchant-partners (MEX) with intelligent, real-time business insights, personalized guidance, automation, and technical analysis. With an intuitive chat-based interface, G-Bot empowers merchants to streamline operations, track performance, and make smarter business decisions—hands-free.
 
 Whether it's generating reports, visualizing trends, scheduling tasks, or answering deep analytical queries, G-bot is your all-in-one business co-pilot.
 
@@ -25,7 +25,7 @@ Making data-driven decisions with limited technical know-how
 Performing repetitive and time-consuming tasks
 Gaining personalized insights tailored to their unique business
 
-With the rise of Generative AI, G-bot was built to address these challenges by delivering:
+With the rise of Generative AI, G-Bot was built to address these challenges by delivering:
 
 ⚡ Real-time business insights
 🔍 Personalized recommendations
