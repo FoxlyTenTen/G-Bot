@@ -81,8 +81,11 @@ App Frontend: React Native (Expo)
 
 **Project Title:** G-Bot  
 **Team Name:** iBUZZ
+
 **Hackathon:** UMHACKATHON 2025
+
 **Team Members:** Mohd Adli Syukri bin Noraman, Muhammad Irfan Azraei bin Izhar Kamil, Muhammad Adli bin Rosdan, Muhammad Haziq bin Abdullah, Adham Muqriz bin Jazlan 
+
 **Institution:** Universiti Tenaga Nasional (UNITEN) & Asian Pacific University (APU)
 
 ### 📚 Nature of Use  
