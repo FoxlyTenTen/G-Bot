@@ -37,12 +37,12 @@ With the rise of Generative AI, G-Bot was built to address these challenges by d
 
 ## 🧩 Components & Technology Stack
 
-Architecture Workflow
+## 🧠 Architecture Workflow
 <p>
   <img src="./arch1.PNG" alt="User 3" width="400"/>
 </p>
 
-#@ 🧠 AI Assistant Workflow (LangChain-Based)
+
 
 This document outlines the workflow of an AI assistant system built using LangChain, designed to handle chat-based queries and execute tasks like data entry, report reading, scheduling, and smart retrieval using RAG (Retrieval-Augmented Generation).
 
@@ -103,12 +103,12 @@ This document outlines the workflow of an AI assistant system built using LangCh
   → AI creates an event in Google Calendar
 
 ---
-Vector Database
+## 🧠 Vector Database Workflow (Supabase + OpenAI Embeddings)
 <p>
   <img src="./arch2.PNG" alt="User 3" width="400"/>
 </p>
 
-## 🧠 Vector Database Workflow (Supabase + OpenAI Embeddings)
+
 
 This flow shows how structured data (e.g., business reports, merchant data) is ingested into a vector store using embeddings for semantic retrieval in AI tasks.
 
