@@ -1,2 +1,78 @@
-# G-Bot
--AI chatbot built to assist Grab’s merchant-partners (MEX) with intelligent, real-time business insights, automation, and personalized decision-making support
+# 🤖 G-bot: Grab’s AI-Powered Merchant Assistant
+
+## 🧠 Introduction
+
+G-bot is a powerful AI chatbot designed to assist Grab’s merchant-partners (MEX) with intelligent, real-time business insights, personalized guidance, automation, and technical analysis. With an intuitive chat-based interface, G-bot empowers merchants to streamline operations, track performance, and make smarter business decisions—hands-free.
+
+Whether it's generating reports, visualizing trends, scheduling tasks, or answering deep analytical queries, G-bot is your all-in-one business co-pilot.
+
+---
+
+## 🔗 Links
+
+- 📹 [Demo Video](https://youtu.be/qvqbWoNrX4k?feature=shared)  
+- 🎨 [Figma Prototype](https://www.figma.com/proto/CIm36rip9n48e1lAOYB4ow/SmartPlant?node-id=0-1&t=af9HSDsSEVhhfRce-1)
+- 📹 [Canva Slides](https://www.canva.com/design/DAGkHyo35R4/ZN5O2ptOS7o0q_-2EoizKg/edit?utm_content=DAGkHyo35R4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+  
+---
+
+## 📍 Problem Statement
+
+Grab's mission is to economically empower Southeast Asians through innovative technologies. Merchant-partners play a crucial role in Southeast Asia’s digital economy, but many struggle with:
+
+Understanding their sales trends and inventory performance
+Making data-driven decisions with limited technical know-how
+Performing repetitive and time-consuming tasks
+Gaining personalized insights tailored to their unique business
+
+With the rise of Generative AI, G-bot was built to address these challenges by delivering:
+
+⚡ Real-time business insights
+🔍 Personalized recommendations
+📊 Automated visual analytics
+🤖 Workflow automation
+🧾 Detailed reports and financial summaries
+
+---
+
+## 🧩 Components & Technology Stack
+![Architecture Workflow](./arch.jpg)
+
+Conversational AI: LangChain + OpenAI/Gemini
+
+Database: Supabase (PostgreSQL, Auth, Real-time)
+
+Chart & Graph Generation: QuickChart API
+
+Automation Engine: n8n (Google Calendar, Email, Slack, etc.)
+
+Vector Search & RAG: Supabase Vector Store + LangChain
+
+App Frontend: React Native (Expo)
+
+---
+
+## ✨ Key Features & Capabilities
+
+🧾 Real-Time Business Reports  
+ Automatically generate reports on sales, inventory, and revenue breakdown.
+
+📊 Dynamic Visual Insights  
+ Instantly create bar, pie, and line charts for key metrics.
+
+📬 Task Automation  
+ Add events to Google Calendar, email partners, or sync updates through integrations.
+
+❓ Natural Language Querying  
+ Ask questions like:  
+ “What’s my best-selling product this month?” and get accurate responses.
+
+📈 Technical Analysis Assistant  
+ Run margin calculations, generate forecasts, and more using structured data.
+
+📦 Product-Level Deep Dives  
+ Request specific product summaries including stock levels, demand, revenue, and growth.
+
+🤖 RAG-Powered Memory  
+ Smart memory for remembering user context and past requests.
+
