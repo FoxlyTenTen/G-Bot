@@ -35,9 +35,34 @@ With the rise of Generative AI, G-Bot was built to address these challenges by d
 
 ---
 
+## ✨ Key Features & Capabilities
+
+🧾 Real-Time Business Reports  
+ Automatically generate reports on sales, inventory, and revenue breakdown.
+
+📊 Dynamic Visual Insights  
+ Instantly create bar, pie, and line charts for key metrics.
+
+📬 Task Automation  
+ Add events to Google Calendar, email partners, or sync updates through integrations.
+
+❓ Natural Language Querying  
+ Ask questions like:  
+ “What’s my best-selling product this month?” and get accurate responses.
+
+📈 Technical Analysis Assistant  
+ Run margin calculations, generate forecasts, and more using structured data.
+
+📦 Product-Level Deep Dives  
+ Request specific product summaries including stock levels, demand, revenue, and growth.
+
+🤖 RAG-Powered Memory  
+ Smart memory for remembering user context and past requests.
+
+
 ## 🧩 Components & Technology Stack
 
-## 🧠 Architecture Workflow
+### 🧠 Architecture Workflow
 <p>
   <img src="./arch1.PNG" alt="User 3" width="400"/>
 </p>
@@ -48,7 +73,7 @@ This document outlines the workflow of an AI assistant system built using LangCh
 
 ---
 
-## 📌 Workflow Steps
+### 📌 Workflow Steps
 
 1. **User Message Trigger**
    - A user sends a message through a chatbot (e.g., web app, Telegram, WhatsApp).
@@ -88,7 +113,7 @@ This document outlines the workflow of an AI assistant system built using LangCh
 
 ---
 
-## 🔧 Example Scenarios
+### 🔧 Example Scenarios
 
 - **"Add today’s sales to the merchant report"**  
   → AI appends the data to Google Sheets.
@@ -103,18 +128,14 @@ This document outlines the workflow of an AI assistant system built using LangCh
   → AI creates an event in Google Calendar
 
 ---
-## 🧠 Vector Database Workflow (Supabase + OpenAI Embeddings)
+### 🧠 Vector Database Workflow (Supabase + OpenAI Embeddings)
 <p>
   <img src="./arch2.PNG" alt="User 3" width="400"/>
 </p>
 
-
-
-This flow shows how structured data (e.g., business reports, merchant data) is ingested into a vector store using embeddings for semantic retrieval in AI tasks.
-
 ---
 
-## 📌 Workflow Steps
+###📌 Workflow Steps
 
 1. **Read Google Sheets Data**
    - The system pulls data from a Google Sheet using a `read.sheet` operation.
@@ -141,7 +162,7 @@ This flow shows how structured data (e.g., business reports, merchant data) is i
 
 ---
 
-## 🔍 Example Use Case
+###🔍 Example Use Case
 
 - A user asks: **"Show me merchants who had a performance drop last week."**
   - The AI queries the Supabase vector store with the semantic meaning of the request.
@@ -149,7 +170,7 @@ This flow shows how structured data (e.g., business reports, merchant data) is i
 
 ---
 
-## 🛠️ Technologies Used Overview
+##🛠️ Technologies Used Overview
 
 - **LangChain** – Agent framework & tool orchestration
 - **OpenAI GPT-4** – Language model
@@ -160,32 +181,66 @@ This flow shows how structured data (e.g., business reports, merchant data) is i
 
 ---
 
-## ✨ Key Features & Capabilities
+## 📊 Data Utilization
 
-🧾 Real-Time Business Reports  
- Automatically generate reports on sales, inventory, and revenue breakdown.
+G-bot intelligently combines **real-time, historical, and contextual data** from multiple sources to generate highly relevant, merchant-specific insights. These insights empower Grab merchants to make faster, smarter business decisions with less effort.
 
-📊 Dynamic Visual Insights  
- Instantly create bar, pie, and line charts for key metrics.
+### 🧾 1. Real-Time Merchant Data
+- Pulled directly from **Supabase** (PostgreSQL)
+- Includes sales figures, revenue breakdowns, order volume, inventory status
+- Enables G-bot to respond instantly to current business activity
 
-📬 Task Automation  
- Add events to Google Calendar, email partners, or sync updates through integrations.
+### 🕰 2. Historical Business Records
+- Accessed using **RAG (Retrieval-Augmented Generation)** and Supabase Vector Store
+- Supports G-bot’s long-term memory: past queries, saved summaries, product analytics
+- Enhances pattern recognition and comparison across timelines
 
-❓ Natural Language Querying  
- Ask questions like:  
- “What’s my best-selling product this month?” and get accurate responses.
+### 📊 3. Visual Analytics
+- Data converted to clear, actionable **charts via QuickChart API**
+- Used to show:
+  - KPI comparisons
+  - Sales trends over time
+  - Product performance metrics
+- Any chart relevant showed
 
-📈 Technical Analysis Assistant  
- Run margin calculations, generate forecasts, and more using structured data.
+---
 
-📦 Product-Level Deep Dives  
- Request specific product summaries including stock levels, demand, revenue, and growth.
+## 🧬 Personalization Strategies
 
-🤖 RAG-Powered Memory  
- Smart memory for remembering user context and past requests.
+### 👤 1. Merchant Profile Embeddings
+- Merchants are categorized by:
+  - Business type (e.g., food, retail, services)
+  - Scale (micro, SME, enterprise)
+  - Geographic location
+- Profiles are embedded in vector space for similarity-based retrieval and personalized suggestions
+
+### 🧠 2. Conversational Memory (LangChain + RAG)
+- Remembers past interactions and questions
+- Enables G-bot to respond with continuity:
+  > “Here’s the restock plan you asked for yesterday”
+- Custom planning and insights evolve over time as G-bot learns the merchant’s needs
+
+### 📈 3. Adaptive Recommendations
+- G-bot blends:
+  - Real-time sales data
+  - External trends (weather, seasonality, local events)
+  - Historical performance
+- Then generates tailored suggestions like:
+  > “Sales for Product X drop during rain — consider a promotion for sunny weekends.”
+
+### 📆 4. Calendar-Linked Automation
+- Uses **n8n** to schedule tasks (meetings, marketing pushes, inventory alerts)
+- Automatically generates and saves plans to **Google Calendar**
+- All plans include:
+  - A clean summary
+  - Date & time
+  - Event title and tags
+  - Markdown-based response preview
+
+---
 
  ## 📝 Nature of this Project
-
+ 
 **Project Title:** G-Bot  
 **Team Name:** iBUZZ
 
