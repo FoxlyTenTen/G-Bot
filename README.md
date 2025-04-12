@@ -10,7 +10,7 @@ Whether it's generating reports, visualizing trends, scheduling tasks, or answer
 
 ## 🔗 Links
 
-- 📹 [Demo Video](https://youtu.be/qvqbWoNrX4k?feature=shared)  
+- 📹 [Demo Video](Coming soon)  
 - 🎨 [Figma Prototype](https://www.figma.com/proto/IXbbgljL8RpOS9F4v6xR4u/UMhackathon2025?node-id=20-62&p=f&t=iqqkOraA7oTrnSAu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=20%3A62)
 - 📹 [Canva Slides](https://www.canva.com/design/DAGkHyo35R4/ZN5O2ptOS7o0q_-2EoizKg/edit?utm_content=DAGkHyo35R4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
   
@@ -36,7 +36,14 @@ With the rise of Generative AI, G-Bot was built to address these challenges by d
 ---
 
 ## 🧩 Components & Technology Stack
+<p>
+  <img src="./arch1.PNG" alt="User 3" width="400"/>
+</p>
 ![Architecture Workflow](./arch1.PNG)
+
+<p>
+  <img src="./arch2.PNG" alt="User 3" width="400"/>
+</p>
 ![Vector Database](./arch2.PNG)
 
 Conversational AI: LangChain + OpenAI/Gemini
