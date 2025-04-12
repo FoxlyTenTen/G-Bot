@@ -10,7 +10,7 @@ Whether it's generating reports, visualizing trends, scheduling tasks, or answer
 
 ## 🔗 Links
 
-- 📹 [Demo Video](Coming soon)  
+- 📹 [Prototype Link](https://foxly.app.n8n.cloud/webhook/c633c33b-7c1e-4a08-823b-3a4d7ba5ac52/chat)  
 - 🎨 [Figma Prototype](https://www.figma.com/proto/IXbbgljL8RpOS9F4v6xR4u/UMhackathon2025?node-id=20-62&p=f&t=iqqkOraA7oTrnSAu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=20%3A62)
 - 📹 [Canva Slides](https://www.canva.com/design/DAGkHyo35R4/ZN5O2ptOS7o0q_-2EoizKg/edit?utm_content=DAGkHyo35R4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
   
