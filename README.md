@@ -162,7 +162,7 @@ This document outlines the workflow of an AI assistant system built using LangCh
 
 ---
 
-###🔍 Example Use Case
+### 🔍 Example Use Case
 
 - A user asks: **"Show me merchants who had a performance drop last week."**
   - The AI queries the Supabase vector store with the semantic meaning of the request.
@@ -170,7 +170,7 @@ This document outlines the workflow of an AI assistant system built using LangCh
 
 ---
 
-##🛠️ Technologies Used Overview
+## 🛠️ Technologies Used Overview
 
 - **LangChain** – Agent framework & tool orchestration
 - **OpenAI GPT-4** – Language model
