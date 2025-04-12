@@ -77,3 +77,17 @@ App Frontend: React Native (Expo)
 🤖 RAG-Powered Memory  
  Smart memory for remembering user context and past requests.
 
+ ## 📝 Nature of this Project
+
+**Project Title:** G-Bot  
+**Team Name:** iBUZZ
+**Hackathon:** UMHACKATHON 2025
+**Team Members:** Mohd Adli Syukri bin Noraman, Muhammad Irfan Azraei bin Izhar Kamil, Muhammad Adli bin Rosdan, Muhammad Haziq bin Abdullah, Adham Muqriz bin Jazlan 
+**Institution:** Universiti Tenaga Nasional (UNITEN) & Asian Pacific University (APU)
+
+### 📚 Nature of Use  
+This project is a submission for the **KitaHack 2025 Hackathon**, intended exclusively for educational and competition purposes. The listed team members are students from **UNITEN** and **APU**, and the project reflects the academic and innovative effort made during the hackathon.
+
+
+---
+
