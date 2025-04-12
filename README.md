@@ -36,7 +36,8 @@ With the rise of Generative AI, G-Bot was built to address these challenges by d
 ---
 
 ## 🧩 Components & Technology Stack
-![Architecture Workflow](./arch.PNG)
+![Architecture Workflow](./arch1.PNG)
+![Vector Database](./arch2.PNG)
 
 Conversational AI: LangChain + OpenAI/Gemini
 
