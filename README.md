@@ -12,7 +12,7 @@ Whether it's generating reports, visualizing trends, scheduling tasks, or answer
 
 - 📹 [Prototype Link](https://foxly.app.n8n.cloud/webhook/c633c33b-7c1e-4a08-823b-3a4d7ba5ac52/chat)  
 - 🎨 [Figma Prototype](https://www.figma.com/proto/IXbbgljL8RpOS9F4v6xR4u/UMhackathon2025?node-id=20-62&p=f&t=iqqkOraA7oTrnSAu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=20%3A62)
-- 📹 [Canva Slides]([https://www.canva.com/design/DAGkHyo35R4/ZN5O2ptOS7o0q_-2EoizKg/edit?utm_content=DAGkHyo35R4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGkVeCCS20/Xi5GGKky30RXcP7qXvTHnQ/edit?utm_content=DAGkVeCCS20&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton ))
+- 📹 [Canva Slides]([https://www.canva.com/design/DAGkVeCCS20/Xi5GGKky30RXcP7qXvTHnQ/edit?utm_content=DAGkVeCCS20&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton])
   
 ---
 
@@ -41,7 +41,8 @@ Architecture Workflow
 <p>
   <img src="./arch1.PNG" alt="User 3" width="400"/>
 </p>
-# 🧠 AI Assistant Workflow (LangChain-Based)
+
+#@ 🧠 AI Assistant Workflow (LangChain-Based)
 
 This document outlines the workflow of an AI assistant system built using LangChain, designed to handle chat-based queries and execute tasks like data entry, report reading, scheduling, and smart retrieval using RAG (Retrieval-Augmented Generation).
 
@@ -107,7 +108,7 @@ Vector Database
   <img src="./arch2.PNG" alt="User 3" width="400"/>
 </p>
 
-# 🧠 Vector Database Workflow (Supabase + OpenAI Embeddings)
+## 🧠 Vector Database Workflow (Supabase + OpenAI Embeddings)
 
 This flow shows how structured data (e.g., business reports, merchant data) is ingested into a vector store using embeddings for semantic retrieval in AI tasks.
 
